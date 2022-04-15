@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
     }
     
     fun konversiTip() {
-    val stringInTextField = binding.nilai.text.toString()
+    val stringInTextField = binding.plainTextInputEditText.text.toString()
     val hitung = stringInTextField.toDouble()
     val selectedId = binding.radioGroup.checkedRadioButtonId
     val konversi = when (selectedId) {
